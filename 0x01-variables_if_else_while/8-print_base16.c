@@ -15,7 +15,8 @@ putchar(i);
 
 }
 
-for (j = 'a'; j <= 'f'; j++)				{
+for (j = 'a'; j <= 'f'; j++)
+{
 putchar(j);
 }
 putchar('\n');
