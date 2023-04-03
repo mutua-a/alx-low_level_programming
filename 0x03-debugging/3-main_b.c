@@ -1,30 +1,16 @@
-void print_remaining_days(int month, int day, int year)
+#include <stdio.h>
+#include "main.h"
+/**
+* is_leap_year - checks if a year is a leap year
+* @year: year
+* Return: 1 if year is a leap year, 0 otherwise
+*/
+
+int is_leap_year(int year)
 {
-    int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-    int day_of_year = 0;
-    int i;
-
-    for (i = 1; i < month; i++)
-    {
-        day_of_year += days_in_month[i];
+    if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
+        return 1;
+    } else {
+        return 0;
     }
-
-    day_of_year += day;
-
-    if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
-    {
-        if (month > 2)
-        {
-            day_of_year++;
-        }
-
-        if (day > 29 && month == 2)
-        {
-            printf("Invalid date: %02d/%02d/%04d\n", month, day, year);
-            return;
-        }
-    }
-
-    printf("Day of the year: %d\n", day_of_year);
-    printf("Remaining days: %d\n", ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0) ? 366 - day_of_year : 365 - day_of_year);
 }
