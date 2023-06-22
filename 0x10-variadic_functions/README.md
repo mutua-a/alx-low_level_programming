@@ -1,5 +1,5 @@
 
-	## 0x10. C - Variadic functions
+	 0x10. C - Variadic functions
 
 	1. stdarg.h - is a header in C, that provides a way to handle functions that take a variable number of arguments.
 	   Syntax:
@@ -12,5 +12,6 @@
 	    syntax:
 	     long func(char, double, int, ...);
 
-	3. Const keyword - the const keyword is used to declare a variable as a constant. A constant is a variable whose value cannot be modified once it is assigned.
+	3. Const keyword - the const keyword is used to declare a variable as a constant.
+	    A constant is a variable whose value cannot be modified once it is assigned.
 	
