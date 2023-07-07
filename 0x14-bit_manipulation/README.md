@@ -1,7 +1,7 @@
 Project
 ## 0x14. C - Bit Manipulation
-   # Bitwise operators
-   # Bitwise OR, AND and NOT
+   1. Bitwise operators
+   2. Bitwise OR, AND and NOT
 
      & - AND
      | - OR
