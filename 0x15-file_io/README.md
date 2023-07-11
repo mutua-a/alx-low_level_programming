@@ -6,9 +6,9 @@ Summary notes:
 ####  Initially used in Unix, file descriptors are now employed by modern operating systems such as Linux, macOS, and BSD. In Windows, file descriptors are referred to as file handles.
 
 ####  In Unix-like systems, the first three file descriptors are known as:
-		### STDIN (standard input), 
-		### STDOUT (standard output), and 
-		### STDERR (standard error). 
+		    STDIN (standard input), 
+		    STDOUT (standard output), and 
+		    STDERR (standard error). 
 	-> STDIN is responsible for receiving input, 
 	-> while STDOUT and STDERR are used for output and error messages, 
 	   respectively.
