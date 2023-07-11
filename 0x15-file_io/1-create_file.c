@@ -1,4 +1,4 @@
-#include "main.h"
+#include "MAIN.H"
 
 /**
  * create_file - Creates a file.
